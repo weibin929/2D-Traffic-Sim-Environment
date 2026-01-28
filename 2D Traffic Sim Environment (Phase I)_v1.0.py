@@ -292,7 +292,7 @@ def main():
     lane_offset = 0
     spawn_timer = 0
     crash_timer = 0 
-    TRAFFIC_START_DIST = 2000 
+    TRAFFIC_START_DIST = 10000 
     
     show_radar = True
     btn_rect = pygame.Rect(0, 0, 0, 0)
