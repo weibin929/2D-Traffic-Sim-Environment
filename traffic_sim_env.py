@@ -226,7 +226,7 @@ class TrafficSim:
         self.lane_offset = 0
         self.spawn_timer = 0
         self.crash_timer = 0
-        self.traffic_start_dist = 100 # [RL調整] 讓車子早點出現
+        self.traffic_start_dist = 5000 # [RL調整] 讓車子早點出現
         self.score = 0
         return self.get_state()
 
